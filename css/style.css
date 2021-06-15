@@ -364,17 +364,16 @@ p {
   text-align: center;
 }
 #head {
-  background: #f4f4f4 url(../img/bg_head.jpg) top center;
+  background: rgb(10, 21, 37);/*url(../img/bg_head.jpg) top center;*/
   background-size: cover;
-  color: #7C7C7C;
+  color: rgb(10, 21, 37);
   padding: 120px 0;
 }
 #head img.img-circle {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 240px;
+  height: 240px;
   overflow: hidden;
-  border: 8px dotted rgba(255, 255, 255, 0.23);
   margin: 0 auto 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
