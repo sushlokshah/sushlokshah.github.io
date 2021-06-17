@@ -9,7 +9,22 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"> 
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.css" rel="stylesheet" type="text/css">
- 
+
+<style>
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #F74D4D;} /* Green */
+  </style>
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
@@ -58,21 +73,16 @@
 <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
   <div class="container">
     <h2>About Me</h2>
-	<h6>A persone who loves Nature and It's creations</h6>
     <div class="inner_section">
  <div>
       <div>
-        <h3>My Passion</h3>
-        <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p> 
-         
-        <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. 
-									</p>
-
-									<ul class="about-us-list">
-										<li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li> 
-                                        <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-									</ul><!-- /.about-us-list -->				 
+						<ul class="about-us-list">
+              <li class="points">Hello! I am a second-year engineering student at Visvesvaraya National Institute of Technology (VNIT), Nagpur, 
+                pursuing a Bachelor of Technology (B.Tech.) in Electronics and Communication Engineering (ECE).</li>
+              <li class="points">Geometry-based vision and SLAM and deep learning are two of my research interests.</li>
+              <li class="points">I'm currently working on Visual SLAM (VSLAM) and differentiable 3D reconstruction.</li>
+							</ul><!-- /.about-us-list -->				
+              <a class="read-more" href="https://drive.google.com/file/d/1x1mmBap-azc0EyU_cyXO_H9buUcMMUKD/view?usp=sharing"><button class="button button1">Resume</button></a> 
       </div>
     </div>
 	     </div>
@@ -233,7 +243,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
 		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div> 
 			<figcaption>		
 				<div>
-				  <a href="img/portfolio_pic1.jpg" class="fancybox"> 
+				  <a href="https://github.com/sushlokshah/visual-odometry" class="fancybox"> 
 					<h2>Warm <span>Oscar</span></h2>
 							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
 				  </a>
@@ -455,7 +465,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
   <div class="container">
     <section class="page_section contact" id="contact">
       <div class="contact_section">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
 	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
      
       </div>
@@ -463,15 +473,16 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
         <div class="col-lg-4 wow fadeInLeft">	
 		 <div class="contact_info">
                             <div class="detail">
-                                <h4>UNIQUE Infoway</h4>
-                                <p>104, Some street, NewYork, USA</p>
+                                <h4>location</h4>
+                                <p>IvLabs,VNIT Nagpur</p>
+                                <img src="img/location.png" alt="">
                             </div>
                             <div class="detail">
-                                <h4>call us</h4>
-                                <p>+1 234 567890</p>
+                                <h4>Contact No.</h4>
+                                <p>+91 9421919409</p>
                             </div>
                             <div class="detail">
-                                <h4>Email us</h4>
+                                <h4>Email</h4>
                                 <p>support@sitename.com</p>
                             </div> 
                         </div>
@@ -481,8 +492,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
           <ul class="social_links">
             <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
             <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li> 
           </ul>
         </div>
         <div class="col-lg-8 wow fadeInLeft delay-06s">
@@ -495,9 +506,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
         </div>
       </div>
     </section>
-  </div>
-  <div class="container">
-    <div class="footer_bottom"><span>Copyright © reserved,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
   </div>
 </footer>
 

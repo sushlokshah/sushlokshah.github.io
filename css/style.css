@@ -184,7 +184,7 @@ figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	color:#fff;+++++++
+	color:#fff;
 }
 
 figure.effect-oscar:hover figcaption {
@@ -299,7 +299,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	margin:0px;
 }
 
 .navStyle ul li:last-child {
@@ -552,6 +552,10 @@ div#main-nav {
 }
 
 .service_section {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+	position: relative;
 }
 
 .service_block {
@@ -643,7 +647,6 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -2320,7 +2323,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+#clients {
 padding: 40px 0;
 }
 .client_logos ul li {
